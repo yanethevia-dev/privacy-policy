@@ -1,97 +1,95 @@
 # Política de Privacidad de Calculadora IRPF
 
-Fecha de entrada en vigor: 10 de junio de 2026
+**Última actualización:** 10 de junio de 2026
 
-Esta Política de Privacidad describe cómo funciona la aplicación **Calculadora IRPF** y cómo trata la información del usuario.
+**Resumen:** Calculadora IRPF es una aplicación orientada al cálculo y simulación fiscal que funciona principalmente de forma local en el dispositivo. En su versión pública actual no recopila, transmite ni comparte datos personales con servidores del desarrollador ni con terceros.
 
-## 1. Responsable de la aplicación
+## 1. Información que recopilamos
 
-Aplicación: **Calculadora IRPF**  
-Desarrollador: **yanethevia-dev**
+Calculadora IRPF es una aplicación de simulación y consulta fiscal. **No recopilamos, transmitimos ni compartimos datos personales del usuario** como nombre, correo electrónico, teléfono, ubicación, contactos, fotos, archivos del dispositivo, identificadores publicitarios o datos de pago.
 
-Si tienes preguntas sobre privacidad o sobre esta aplicación, puedes utilizar los datos de contacto publicados en la ficha de Google Play de la app o en el canal de soporte que el desarrollador mantenga habilitado para el producto.
+La aplicación pública actual no requiere cuenta de usuario, no ofrece registro y no incorpora analítica de terceros ni publicidad.
 
-## 2. Qué hace la aplicación
+## 2. Almacenamiento de datos
 
-Calculadora IRPF es una aplicación informativa y de simulación que permite:
-
-- realizar un cálculo rápido de IRPF
-- realizar una simulación detallada
-- cambiar entre ejercicios fiscales disponibles, como `2025` y `2026`
-- consultar reglas fiscales integradas en la propia aplicación
-
-La aplicación pública está diseñada para funcionar principalmente **en el propio dispositivo** del usuario.
-
-## 3. Qué datos recoge la aplicación
-
-En su versión pública actual, **Calculadora IRPF no solicita cuentas de usuario, no ofrece registro, no muestra anuncios y no integra analítica de terceros**.
-
-La aplicación **no recoge ni transmite a servidores del desarrollador** datos personales como:
-
-- nombre
-- correo electrónico
-- número de teléfono
-- ubicación
-- contactos
-- fotos
-- archivos del dispositivo
-- identificadores publicitarios
-- datos bancarios o de pago
-
-## 4. Qué información puede almacenarse localmente en el dispositivo
-
-Para funcionar, la aplicación puede guardar **información local en el propio dispositivo**, por ejemplo:
+La aplicación puede almacenar información local en el dispositivo para su funcionamiento normal, por ejemplo:
 
 - el ejercicio fiscal seleccionado por el usuario
-- configuraciones locales de la aplicación
+- preferencias locales de la aplicación
 - packs de reglas fiscales incluidos o activados localmente
-- datos técnicos internos necesarios para el funcionamiento de la calculadora
+- datos técnicos internos necesarios para el funcionamiento del cálculo
 
-Este almacenamiento se realiza localmente mediante mecanismos del sistema y componentes de persistencia de Android, como base de datos local y preferencias del dispositivo.
+Este almacenamiento se realiza mediante mecanismos locales del sistema Android, como base de datos del dispositivo y preferencias locales de la app.
 
-## 5. Qué datos se comparten con terceros
+**Esta información permanece en el dispositivo del usuario y no se envía a servidores externos del desarrollador.**
 
-La aplicación pública **no comparte datos personales del usuario con el desarrollador ni con terceros** desde la propia app.
+## 3. Permisos de la aplicación
 
-No obstante, el sistema operativo Android o la cuenta del proveedor del dispositivo pueden gestionar copias de seguridad del dispositivo si el usuario tiene activadas esas funciones. Ese tratamiento depende del proveedor de la plataforma o del servicio de copia de seguridad usado por el usuario, no de una transferencia iniciada por la app a servidores propios del desarrollador.
+En su versión pública actual, Calculadora IRPF **no solicita ni utiliza permisos sensibles** como:
 
-## 6. Permisos y acceso del dispositivo
+- ubicación
+- cámara
+- micrófono
+- contactos
+- almacenamiento externo
+- cuentas de usuario
 
-En su versión pública actual, la aplicación **no solicita permisos sensibles** como ubicación, cámara, micrófono, contactos o almacenamiento externo para su funcionamiento normal.
+La aplicación pública tampoco depende de servicios publicitarios ni de perfiles de seguimiento.
 
-## 7. Conservación y eliminación de datos
+## 4. Uso de la información local
 
-La información local de la aplicación permanece en el dispositivo mientras:
+La aplicación utiliza la información almacenada localmente únicamente para:
 
-- la app siga instalada, o
-- el usuario no borre sus datos desde los ajustes del sistema
+- ejecutar el cálculo rápido de IRPF
+- ejecutar la simulación detallada
+- aplicar las reglas fiscales disponibles para cada ejercicio
+- recordar la selección del ejercicio fiscal activo
+- mostrar la información y el estado interno necesarios para el funcionamiento de la app
 
-Si el usuario desinstala la aplicación o elimina sus datos desde Android, la información local almacenada por la app en el dispositivo dejará de estar disponible en la app.  
-Si el usuario tiene activadas copias de seguridad del sistema, algunos datos locales podrían conservarse temporalmente en esas copias según las políticas del proveedor del servicio de backup.
+## 5. Compartir datos con terceros
 
-## 8. Seguridad
-
-Calculadora IRPF está diseñada para minimizar el tratamiento de datos personales, priorizando el procesamiento local en el dispositivo.
+Calculadora IRPF **no comparte datos personales con terceros** desde la app pública.
 
 Además:
 
-- la aplicación pública no depende de una cuenta de usuario
-- no realiza tratamiento publicitario
-- no incorpora analítica de terceros en el APK público
-- utiliza almacenamiento local del dispositivo para su configuración y funcionamiento
+- no utiliza servicios de analítica de terceros
+- no muestra publicidad
+- no incorpora integración con redes sociales
+- no utiliza una cuenta remota del usuario para prestar el servicio principal
+
+No obstante, el sistema operativo Android o el proveedor del dispositivo pueden gestionar copias de seguridad del dispositivo si el usuario tiene activadas esas funciones. Ese posible tratamiento depende del proveedor de la plataforma o del servicio de copia de seguridad utilizado por el usuario.
+
+## 6. Seguridad de los datos
+
+Calculadora IRPF está diseñada para minimizar el tratamiento de datos personales y priorizar el procesamiento local en el dispositivo.
+
+La información local de la aplicación se mantiene dentro del entorno de almacenamiento de Android y queda protegida por los mecanismos de aislamiento propios del sistema operativo.
 
 Aunque se aplican medidas razonables para reducir riesgos, ningún sistema puede garantizar una seguridad absoluta.
 
-## 9. Menores de edad
+## 7. Eliminación de datos
 
-La aplicación no está diseñada específicamente para menores ni dirigida de forma intencionada a niños. No se ofrece un flujo de registro ni se solicita información personal identificativa desde la app pública.
+Puedes eliminar los datos locales de la aplicación en cualquier momento mediante:
 
-## 10. Cambios en esta política
+- la desinstalación de la aplicación desde Android
+- la limpieza de datos de la app desde los ajustes del sistema
 
-Esta Política de Privacidad puede actualizarse si cambia la funcionalidad de la aplicación, si se añaden integraciones nuevas o si cambia la normativa aplicable.
+Una vez eliminados los datos locales, la aplicación dejará de tener acceso a ellos. Si el usuario mantiene copias de seguridad del sistema activadas, algunas configuraciones locales podrían conservarse temporalmente en esas copias según la política del proveedor correspondiente.
 
-La versión vigente será la publicada en la URL pública indicada para la política de privacidad de la app.
+## 8. Usuarios menores de edad
 
-## 11. Contacto
+Calculadora IRPF no está diseñada específicamente para menores ni dirigida de forma intencionada a niños. La app pública no solicita registro ni recopila información personal identificativa del usuario.
 
-Para consultas sobre privacidad relacionadas con **Calculadora IRPF**, utiliza los datos de contacto del desarrollador publicados en la ficha oficial de Google Play de la aplicación.
+## 9. Cambios en esta política
+
+Cualquier cambio en esta política de privacidad podrá reflejarse mediante:
+
+- una actualización de la aplicación
+- la actualización de esta página
+- cambios en la documentación pública asociada al producto
+
+La versión vigente será la publicada en la URL pública configurada como política de privacidad de la app.
+
+## 10. Contacto
+
+Si tienes preguntas, comentarios o inquietudes sobre esta política de privacidad, puedes utilizar los datos de contacto del desarrollador publicados en la ficha oficial de Google Play de la aplicación.
